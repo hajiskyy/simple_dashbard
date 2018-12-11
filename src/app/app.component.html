@@ -1,20 +1,120 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-md-auto">
+      <img src="assets/img/profile.png" class="rounded float-left" style="width: 200px; height: 200px;">
+    </div>
+    <div class="col border border-dark p-5">
+      <div class="row">
+        <div class="col-2"><strong>Market Plan</strong></div>
+        <div class="col-7">
+          <p>Fill in who are your customers? What is the pain statement that you are trying to solve for them?</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2"><strong>Benefit</strong></div>
+        <div class="col-7">
+          <p>What is the benefit that will match the pain statement</p>
+        </div>
+        <div class="col-2">
+          <a href="#" class="btn btn-outline-dark">Edit Profile</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row my-4">
+    <div class="col-12">
+      <h4 class="text-center">How is <span class="font-weight-bold">VentureX <i class="fas fa-pencil-alt text-primary"></i> </span> doing today? <span class="small">Check Dashboard</span></h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8 mx-auto">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 mx-auto text-center">
+          <div class="progress" data-percentage="27">
+            <span class="progress-left">
+              <span class="progress-bar"></span>
+            </span>
+            <span class="progress-right">
+              <span class="progress-bar" style="border-color: orange;"></span>
+            </span>
+            <div class="progress-value">
+              <div>
+                <strong>27</strong> 
+                <span class="small">%</span>
+                <br>
+                <span>Product</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-3 mx-auto col-md-2">
+          <div class="progress" data-percentage="15">
+            <span class="progress-left">
+              <span class="progress-bar"></span>
+            </span>
+            <span class="progress-right">
+              <span class="progress-bar" style="border-color: red;"></span>
+            </span>
+            <div class="progress-value">
+              <div> <strong>3</strong> <span class="small">months</span>
+                <br>
+                <span>Runway</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 mx-auto col-md-2">
+          <div class="progress" data-percentage="24">
+            <span class="progress-left">
+              <span class="progress-bar"></span>
+            </span>
+            <span class="progress-right">
+              <span class="progress-bar"></span>
+            </span>
+            <div class="progress-value">
+              <div>
+                <strong>24</strong> <span class="small">%</span>
+                <br>
+                <span>Conversion</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-3 mx-auto col-md-2">
+          <div class="progress" data-percentage="100">
+            <span class="progress-left">
+              <span class="progress-bar" style="border-color: greenyellow;"></span>
+            </span>
+            <span class="progress-right">
+              <span class="progress-bar" style="border-color: greenyellow;"></span>
+            </span>
+            <div class="progress-value">
+              <div>
+                <strong>100</strong> <span class="small">%</span>
+                <br>
+                <span>Engagement</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 mt-2">
+      <div class="alert alert-warning" role="alert">
+        <strong>Small Converson?</strong> Learn what you can do to <strong>rise you conversion</strong>
+      </div>
+    </div>
+    <div class="col-12 mt-2">
+      <div class="alert alert-danger" role="alert">
+        <strong>Low product score?</strong> <strong>Try this</strong> to get more..
+      </div>
+    </div>
+  </div>
+</div>
